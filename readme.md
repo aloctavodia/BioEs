@@ -25,6 +25,7 @@ Las notebooks fueron creadas en una computadora x86_64 corriendo Ubuntu 15.10 y 
 * SciPy 0.16.1
 * Matplotlib 1.5.1
 * Seaborn 0.7.0
+* PyMOL (conda install -c https://conda.anaconda.org/ostrokach pymol)
 
 Para los usuarios de Windows/Mac Os X se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads). Para los usuarios de Linux se recomienda Anaconda o pip, ya que los gestores de paquetes suelen tener versiones algo viejas de estas librerías.
 
