@@ -4,18 +4,28 @@ Este repositorio contiene material didáctico para el dictado de un curso introd
 
 
 ## Temas
-* Modelado
-    * PyMol (ToDo)
-    * Modeller (ToDo)
-    * PyRosetta (ToDo)
+### Introducción a la programación científica.
+Investigación reproducible. Lenguaje de programación Python. Scripts y notebooks de Jupyter.
+Variables. Operadores. Cadenas listas, tuplas, diccionarios, conjuntos. Bucles y control de flujo.
+Modulos y librerías. Excepciones. Escritura/lectura de archivos. Concepto de algoritmo y
+ejemplos. Automatización de tareas cotidianas. Pequeños programas-proyectos. El material de este tema se encuentra en [este](https://github.com/aloctavodia/Intro_Python) repositorio.
 
-* Algoritmos en bioinformática
-    * Distancias, ángulos y geometría (traducir)
-    * Comparando estructuras (traducir)
-    * Alienamiento de Secuencias y clustering (traducir)
-    * Predicción de estructura de proteínas y ARN usando secuencias (traducir)
+### Introducción a la Bioinformática Estructural
+Bioinformática y biología computacional, definiciones, presente y futuro. Bioinformática
+estructural, definición. El PDB, base de datos y formato. Visualización y análisis de estructuras
+usando PyMOL/Python: Distancias y mapas de contacto, medición de ángulos, ángulos torsionales y Ramachandran plot, radio de giro, superposición estructural, área expuesta al solvente y algoritmo de Shrake & Rupley.
 
-  ## Instalación
+### Alineamiento de secuencias y clustering
+Definición de homología, el problema del alineamiento, alineamientos globales vs locales, matrices de sustitución, matriz BLOSUM. Algoritmo de Needleman-Wunsch algorithm y de Smith-Waterman algorithm. BLAST. Estrategias para alineamientos múltiples. Alineamiento Progresivo (_greedy approach_) y alineamiento iterativo. Conceptos en filogenia molecualr computacional, métodos basados en distancia, métodos basados en caracteres, máxima parsimonia, Máxima verosimilitud, métodos Bayesianos. Clustering: Neighbor joining, K-means clustering
+
+
+### Modelado por homología (usando Modeller)
+TODO
+
+### Modelado de novo (usando PyRosetta)
+TODO
+
+## Instalación
 Para usar este material es necesario tener instalado Python (lamentablemente PyRosetta todavía no está portado a Python 3 por lo que se usará Python 2.7). Además es necesario instalar los siguientes paquetes:
 
 Las notebooks fueron creadas en una computadora x86_64 corriendo Ubuntu 15.10 y usando las siguientes librerías de Python:
