@@ -1,10 +1,10 @@
 # Bioinformática Estructural usando Python
 
-Este repositorio contiene material didáctico para el dictado de un curso introductorio de BIoinformática Estructural. Este material es **trabajo en progreso** por lo que todavía quedan varias aristas por pulir. El material consiste en Jupyter notebooks y tiene un enfoque práctico. Confío en que este formato ayudará a los estudiantes a entusiasmarse con los distintos tópicos y aún mas importante que los motivará para seguir estudiando por su cuenta.
+Este repositorio contiene material didáctico para el dictado de un curso introductorio de Bioinformática Estructural. Este material es **trabajo en progreso** por lo que todavía quedan varias aristas por pulir. El material consiste en Jupyter notebooks y tiene un enfoque práctico. Confío en que este formato ayudará a los estudiantes a entusiasmarse con los distintos tópicos y aún mas importante que los motivará para seguir estudiando por su cuenta.
 
 
 ## Temas
-### Introducción a la programación científica.
+### Introducción a la programación científica
 Investigación reproducible. Lenguaje de programación Python. Scripts y notebooks de Jupyter.
 Variables. Operadores. Cadenas listas, tuplas, diccionarios, conjuntos. Bucles y control de flujo.
 Modulos y librerías. Excepciones. Escritura/lectura de archivos. Concepto de algoritmo y
@@ -35,7 +35,11 @@ Las notebooks fueron creadas en una computadora x86_64 corriendo Ubuntu 15.10 y 
 * SciPy 0.16.1
 * Matplotlib 1.5.1
 * Seaborn 0.7.0
-* PyMOL (conda install -c https://conda.anaconda.org/ostrokach pymol)
+* PyMOL 
+```conda install -c https://conda.anaconda.org/ostrokach pymol)```
+* Modeller 
+```conda config --add channels salilab
+conda install modeller)```
 
 Para los usuarios de Windows/Mac Os X se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads). Para los usuarios de Linux se recomienda Anaconda o pip, ya que los gestores de paquetes suelen tener versiones algo viejas de estas librerías.
 
